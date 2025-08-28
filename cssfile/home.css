@@ -1,0 +1,227 @@
+.contain{
+    width: 80%;
+    overflow: hidden;
+    background-color: #E5E5E3;
+    margin: auto;
+
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: #2C7C1D;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.menu .logostefl{
+    width: 40%;
+    height: 100%;
+    /* background-color:#2C7C1D; */
+    float: left;
+}
+.logostefl .logo{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(160, 38, 103); */
+    float: left;
+    object-fit: cover;
+    
+    
+}
+.logoname{
+    width: 70%;
+    height: 100%;
+    /* background-color: black; */
+    float: left;
+    font-family: "Angkor", serif;
+    text-align: left;
+  
+    
+}
+.logoname a{
+    color: aliceblue;
+    /* font-size: large; */
+    
+    
+}
+.logoname a:hover{
+    color: rgb(234, 206, 130);
+    /* font-size: large; */
+    
+}
+
+.menu .navbar{
+    width: 60%;
+    overflow: hidden;
+    /* background-color: aliceblue; */
+}
+.menu .navbar ul li{
+    float: left;
+    display: inline;
+}
+.navbar ul li a{
+    padding: 10px 20px;
+    text-decoration:none;
+    font-size: large;
+    color: white;
+    
+}
+.navbar ul li a:hover{
+    color: bisque;
+
+}
+
+
+
+
+/* Images Slide Show */
+.imageslide{
+    width: 100%;
+    background-image: url(/images/banner-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    
+}
+.title{
+    width: 500px;
+    height: 200px;
+    /* background-color: aliceblue; */
+}
+.title h1{
+    text-align: left;
+    color: white;
+    font-size: 50px;
+    padding-left: 50px;
+}
+.title p{
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    padding-left: 50px;
+}
+/* From Uiverse.io by McHaXYT */ 
+.button {
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  background-color:#2C7C1D;
+  color: #eee;
+  border-radius: 7px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+  margin-left: 50px;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+}
+
+.button-span {
+  color: #aaa;
+}
+
+
+
+
+/* ABOUT US */
+.about{
+    width: 98%;
+    overflow: hidden;
+    margin: 1% 0% 1% 0%;
+}
+.about a{
+    text-decoration: none;
+    color: #0a2e04;
+}
+.about p{
+    line-height: 150%;
+    color: #0a2e04;
+}
+
+
+/* Our Course */
+.ourcourse{
+    width: 100%;
+    /* height: 800px; */
+    /* background-color: #bf3030; */
+    display: flex;
+    flex-direction: row;        /* Items in a row */
+    justify-content:center; /* Space evenly between items */
+    flex-wrap: wrap;
+    
+}
+
+.eachcourse{
+    width: 32%;
+    margin: 5px;
+    /* overflow: hidden; */
+    /* background: #FFFEFE; */
+    border-radius: 2%;
+    display: flex;
+    justify-content:center;
+    align-items:first baseline;
+    padding: 0% 0% 2% 0%;
+    
+}
+
+.eachcourse .coursecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: left; /* Center all items horizontally */
+  /* background: #f5f5f5; */
+  /* padding: 20px; */
+}
+
+.eachcourse .coursecontainer img {
+  width: 100%;
+  border-radius: 2%;
+  margin-bottom: 10px;
+  height: 100%;
+  
+}
+
+h1 {
+  margin: 0;
+  padding-left: 2%;
+  color: #0a2e04;
+}
+
+p {
+line-height: 150%;
+  color: gray;
+  margin: 5px 0 0;
+  padding: 2% 0% 2% 2% ;
+}
+.eachcourse .coursecontainer .btn {
+  color: #090909;
+  padding: 0.5em 1.5em;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color:#339021;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  width: 200px;
+
+}
+
+.eachcourse .coursecontainer .btn a{
+    color: white;
+    text-decoration: none;
+}
+.coursecontainer .btn:hover {
+    background-color: #090909;
+}
+
+
+
+
+

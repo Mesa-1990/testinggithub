@@ -1,0 +1,84 @@
+.contain{
+    width: 80%;
+    overflow: hidden;
+    background-color: #E5E5E3;
+    margin: auto;
+
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items:center;
+}
+.header img{
+    width: 100vw;       /* responsive size (100% of viewport width) */
+      object-fit: cover;  /* keeps the image cropped nicely */
+      height: 30vw;
+      
+}
+.title{
+    position:absolute;
+    /* background-color: aliceblue; */
+    font-size: 30px;
+    margin: 0% 0% 0% 5%;
+    color: white;
+    line-height: 1;
+}
+.title h1{
+    margin-bottom: 5px;
+    font-size: 100px;
+}
+
+
+/* Our Services & Activities */
+.colactivities{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+}
+.colactivities .box1{
+    flex: 0 0 47%;
+    /* background-color: aqua; */
+    margin-left: 2%;
+    height: 200px;
+}
+/* .colactivities .box2{
+    flex: 0 0 70%;
+    background-color: bisque;
+    height: 200px;
+} */
+
+.farmerscol{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+}
+.farmerscol .box{
+    flex: 30%;
+    /* background-color: aqua; */
+    margin-left: 2%;
+    height: 200px;
+}
+.farmerscol .box img{
+    height: 50%;
+}
+
+.farmerscol .box .boxleft{
+    width:20%;
+    height: 100%;
+    /* background-color: aqua; */
+    float: left;
+
+}
+.farmerscol .box .boxright{
+    width:80%;
+    height: 50%;
+    /* background-color: bisque; */
+    float: left;
+}

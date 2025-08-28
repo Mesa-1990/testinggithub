@@ -1,0 +1,102 @@
+.contain{
+    width: 80%;
+    overflow: hidden;
+    background-color: #E5E5E3;
+    margin: auto;
+
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items:center;
+}
+.header img{
+    width: 100vw;       /* responsive size (100% of viewport width) */
+      object-fit: cover;  /* keeps the image cropped nicely */
+      height: 30vw;
+      
+}
+.title{
+    position:absolute;
+    /* background-color: aliceblue; */
+    font-size: 50px;
+    margin: 0% 0% 15% 5%;
+}
+
+
+
+.mission{
+    width: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    overflow: hidden;
+    margin: 0% 5% 0% 5%;
+    line-height: 25px;
+    
+}
+.history{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    /* background-color: aqua; */
+}
+.history .box{
+    flex: 0 0 25%; /* Do not grow/shrink, fixed at 25% */
+    /* background: lightblue; */
+    margin-left: 5%;
+    /* height: 200px; */
+}
+.history .box img{
+    
+    width: 50vw;       /* responsive size (50% of viewport width) */
+      max-width: 300px;  /* don’t let it grow too big */
+      aspect-ratio: 1/1; /* keeps width & height equal */
+      border-radius: 5%; /* makes it a circle */
+      object-fit: cover;  /* keeps the image cropped nicely */
+      border: 5px solid #eff4ef; /* optional border */
+}
+.history .box1{
+   flex: 0 0 60%; /* Do not grow/shrink, fixed at 30% */
+    /* background: lightblue; */
+    line-height: 30px;
+}
+
+.leadershipteam{
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+}
+.leadershipteam .box{
+    width: 25%;
+    /* background-color:aqua; */
+    height: 300px;
+    margin: 2% 2% 2% 2%;
+}
+.leadershipteam .box .profile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+.leadershipteam .box .profile img{
+      width: 20vw;       /* responsive size (20% of viewport width) */
+      max-width: 200px;  /* don’t let it grow too big */
+      aspect-ratio: 1/1; /* keeps width & height equal */
+      border-radius: 50%; /* makes it a circle */
+      object-fit: cover;  /* keeps the image cropped nicely */
+      border: 5px solid #4CAF50; /* optional border */
+
+
+}

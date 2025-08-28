@@ -1,0 +1,121 @@
+
+/* Footer */
+.footer{
+    margin-top: 10px;
+    width: 100%;
+    /* background-color: #bf3030; */
+    display: flex;
+    flex-direction: row;        /* Items in a row */
+    justify-content:center; /* Space evenly between items */
+    height: 200px;
+}
+.coursebox{
+    width: 20%;
+    margin: 5px;
+    background: #FFFEFE;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.coursebox .contentbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center all items horizontally */
+  /* background: #f5f5f5; */
+  /* padding: 20px; */
+  
+}
+
+.coursebox .contentbox  img {
+ flex: 1 1 50px; /* grow, shrink, min-width */
+ padding-top: 10%;
+ width: 30%;
+}
+
+.coursebox .contentbox a{
+flex: 1 1 50px;
+color: #0a2e04;
+padding-bottom: 5%;
+text-decoration: none;
+}
+.coursebox .contentbox a:hover{
+flex: 1 1 50px;
+color: #1d7d0c;
+padding-bottom: 5%;
+font-size: larger;
+cursor: pointer;
+transition: all 0.25s ease-out;
+transform: translateY(-3px);
+}
+
+
+
+
+
+
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: #2C7C1D;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.menu .logostefl{
+    width: 40%;
+    height: 100%;
+    /* background-color:#2C7C1D; */
+    float: left;
+}
+.logostefl .logo{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(160, 38, 103); */
+    float: left;
+    object-fit: cover;
+    
+    
+}
+.logoname{
+    width: 70%;
+    height: 100%;
+    /* background-color: black; */
+    float: left;
+    font-family: "Angkor", serif;
+    text-align: left;
+  
+    
+}
+.logoname a{
+    color: aliceblue;
+    /* font-size: large; */
+    
+    
+}
+.logoname a:hover{
+    color: rgb(234, 206, 130);
+    /* font-size: large; */
+    
+}
+
+.menu .navbar{
+    width: 60%;
+    overflow: hidden;
+    /* background-color: aliceblue; */
+}
+.menu .navbar ul li{
+    float: left;
+    display: inline;
+}
+.navbar ul li a{
+    padding: 10px 20px;
+    text-decoration:none;
+    font-size: large;
+    color: white;
+    
+}
+.navbar ul li a:hover{
+    color: bisque;
+
+}
+
